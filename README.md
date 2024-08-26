@@ -7,10 +7,10 @@ This is a simple library to send and receive web messages in js and typescript p
 ```typescript
 import {listenMessage , postMessage} from '@tecabel/frame-messages'
 
-listenMessage<T>((value: T | null) => {
+listenMessage<T>('http://localhost:3000',(value: T | null) => {
     // your code here
   })
 
-postMessage(targetOrigin: string, messageContent: string)
+postMessage('http://localhost:3000', messageContent: 'hi!')
 
 ```
