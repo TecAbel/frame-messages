@@ -1,0 +1,19 @@
+{
+  "name": "@tecabel/frame-messages",
+  "version": "1.0.0",
+  "description": "A simple web messages library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frame",
+    "messages"
+  ],
+  "author": "@TecAbel",
+  "license": "MIT",
+  "files": [
+    "/dist"
+  ]
+}
