@@ -1,6 +1,6 @@
 export function listenMessage<T>(
   origin: URL,
-  callback: (response: T | null) => {},
+  callback: (response: T | null) => void,
 ) {
   if (typeof window === "undefined")
     throw new Error("frame-messages: window is undefined");
